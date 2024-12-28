@@ -27,6 +27,10 @@ Run the parallel version using MPI to observe the speedup:
 
 mpiexec -np 5 python Parallel_Version.py (-np "n" n=number of processes)
 
+To see the visualization of the comparison run
+
+python Visualize.py
+
 # Data Placement:
 The script automatically downloads and preprocesses the Fashion-MNIST dataset. No need to manually place any data files.
 
